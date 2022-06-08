@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300;400&family=Tiro+Bangla&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: cornsilk;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Tiro Bangla', serif;
+    text-align: center;
+    color:#2f4f4f;
+}
+
+
+img {
+    width: 60%;
+    margin-left: 20%;
+    box-shadow: 13px 10px 27px 15px cadetblue;
+    display: block;
+    margin-bottom: 1em;
+}
+
+h1 {
+    font-size: 50px;
+    font-style: italic;
+    color:cadetblue;
+    text-shadow: -35px 27px 69px #A3DBE6, 5px 5px 10px ;
+}
+
+
+
+a {
+    margin-top: 10em;
+    padding: 1em;
+    font-size: 30px;
+    color: rgb(47, 79, 79);
+    text-shadow: -35px 27px 69px #A3DBE6, 5px 5px 10px ;
+}
+
+.input-box{
+    width: 40%;
+    padding: 1em;
+    margin: 1em auto 1em;
+    background-color: lemonchiffon;
+    border-radius: 2%;
+    font-family: 'Tiro Bangla', serif;
+    box-shadow: 13px 10px 27px 15px cadetblue;
+}
+
+.set {
+
+    width: fit-content;
+    padding: 0.5em;
+    margin: 1em auto 1em;
+    background-color: lemonchiffon;
+    border: none;
+    border-radius: 2%;
+    font-family: 'Tiro Bangla', serif;
+    font-size: 20px;
+    box-shadow: 13px 10px 27px 15px cadetblue;
+}
+

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>user-setting</title>
+</head>
+<body>
+    
+    <h2>User Info</h2>
+
+    <form onsubmit="myFunction(event)">
+        <div class="input-box">
+            <label for="email">E-mail: </label>
+            <input id = "email" type="email" name="email" required/>
+        </div>
+
+        <div class="input-box">
+            <label for="age">Age:</label>
+            <input type="range" id="age" name="age" step="1" min="18" max="120" value="35"
+                    onchange="showAge(this.value)" />
+                    <span class="showAge">35</span>
+        </div>
+
+        <h3>Set Colors:</h3>
+
+        <div class="input-box">
+            <label for="bgColor">Set Background color:</label>
+            <input type="color" id="bgColor" name="bgColor" value="#A3DBE6"
+                onchange = "setBGColor(value)">
+        </div>
+
+
+        <div class="input-box">
+            <label for="textColor">Set Text color:</label>
+            <input type="color" id="textColor" name="textColor" value="#2f4f4f"
+                onchange = "setTxtColor(value)">
+        </div>
+
+        <div class="input-box">
+            <label for="birthDate">Birth Date:</label>
+            <input type="date" id="birthDate" name="birthDate">
+        </div>
+
+        <div class="input-box">
+            <label for="birthTime">Birth Time:</label>
+            <input type="time" id="birthTime" name="birthTime">
+        </div>
+        
+        <input type="submit" value="Submit">
+    </form> 
+
+    <!-- <script src="js/services/util.service.js"></script> -->
+    <script src="js/services/storage.service.js"></script>
+    <script src="js/services/place-keeper.service.js"></script> 
+    <script src="js/place-keeper.controller.js"></script>
+</body>
+</html>
